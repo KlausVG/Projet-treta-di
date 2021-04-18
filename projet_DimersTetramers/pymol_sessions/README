@@ -1,0 +1,13 @@
+ATTENTION : ici chaque PDB contient une unique chaine (ie un seul monomere) extrait soit du dimere soit du tetramere (voir table de correspondance pour identifier qui est qui). 
+
+Chaque residu est annote comme appartenant a l'interface ancestrale (bfactor = 1) ou recente (bfactor = 2 - uniquement pour les PDB correspondant a un tetramere) ou avec un statut noninterface (bfactor = 0).
+ATTENTION BIS : La structure des monomeres extraits des dimere a ete alignee sur celle de leur homologue tetramere correspondant afin de vous faciliter les analyses de comparaison. DONC, les coordonnees des PDB des monomeres dimeriques sont legerement differentes de celles des PDB dimeriques stockees dans le repertoire Dimers car dans ce cas c'est tout le dimere qui a ete aligne sur le tetramere, ca ne change pas grand chose, ce sont juste de petits ajustement locaux mais ne soyez pas surpris que le meme monomere extrait du dimere et present dans les rep Dimers ou Dim_Tet_interfaces ne soient pas alignes parfaitement sous pymol. Si cela vous gene, il suffit de realigner le monomere de Dim_tet_interfaces sur le monomere dans le pdb du dimere stockes dans Dimers. Pour cela, sous pymol, ouvrez les deux fichiers et aligner le monomere sur le dimere (et non l'inverse) via cealign 1a3c_Dim.pdb 1a3c_inter.pdb
+
+
+Nom du dimere : 1a3c_AB
+Nom du tetra : 1non_ABCD
+Nom du mono from dimer avec interfaces annotees : 1a3c_inter
+Nom du mono fomr tetra avec interfaces annotees : 1non_inter
+
+
+
