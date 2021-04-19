@@ -1,0 +1,22 @@
+Frequences des 20 aa a la surface et a l interface
+acide_amine,frequence_surface,frequence_interface
+ALA,11,3
+CYS,0,0
+ASP,18,1
+GLU,18,4
+PHE,9,5
+GLY,17,4
+HIS,6,0
+ILE,17,3
+LYS,21,2
+LEU,20,5
+MET,5,2
+ASN,6,0
+PRO,6,5
+GLN,5,2
+ARG,9,2
+SER,6,3
+THR,10,1
+VAL,21,3
+TRP,1,1
+TYR,10,9
