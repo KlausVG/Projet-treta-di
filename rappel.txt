@@ -1,0 +1,8 @@
+parcourt le dossier dimer
+liste tout les dossier
+pour chaque dossier open les truc, stocke dans une list
+
+pour tout les treta, pareil, add colone si dimire ou treta
+
+exporte en 3 csv ? ou 2 ? 
+
